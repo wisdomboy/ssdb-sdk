@@ -1,0 +1,21 @@
+{
+    "name": "ssdb/ssdb-demo",
+    "description": "the first ssdb",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Bande",
+            "email": "romantingmr@aliyun.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"require": {
+        "php" : ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "demo\\" : "src/"
+        }
+    }
+}
